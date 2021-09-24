@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="all.css">
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous"
+  /> 
+  <link rel="stylesheet" href="all.css">
+<div class="cards">
+      <div class="box-cards">
+          <div class="img">
+              <img src="img/logo oihjo2.png" alt="">
+              <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+          </div>
+          <div class="datos">
+              <h1>Erick Imprenta</h1>
+              <p class="indumentaria">Hacemos Tus Tarjetas y volante, etc!</p>
+          </div>
+         <p class="flecha" id="flecha"><i class="fas fa-chevron-down"></i></p>
+          
+      </div>
+      <div class="box-info" id="box-info">
+       
+          <h2>Informacion Programador</h2>
+          <a href="https://wa.me/5491144382987?text=holaa,%20quiero%20contratarte%20para%20una%20pagina%20web%20" style="text-decoration:none" ><p class="lhuis">programador lhuisRuiz</p></a> 
+      
+        </div>
+      <div class="img-2">
+       <a href="https://wa.me/c/541126526135" style="text-decoration:none" ><img class="catalogo" src="img/catalogo-whats-blog.jpg" width="100%" ba alt=""></div></a>
+      <div class="box-iconos">
+          <a href="tel:+5491126526135" class="btn" style="text-decoration:none" >
+        <p class="red"><i class="fas fa-phone"></i></p> 
+        
+        <a href="tel:+5491126526135" class="btn" style="text-decoration:none" >
+        <h1 class="erick">+54 1126526135</h1> </a>
+
+        <a href="https://wa.me/541126526135?text=%20¿%20Holaa,%20como%20estas%20?%20" style="text-decoration:none" > <p class="green"><i class="fab fa-whatsapp"></i></p></a>
+      </div>
+      <div>
+       
+      </div>
+  </div>
+  <script>
+      let flecha = document.getElementById("flecha");
+let box = document.getElementById("box-info");
+
+flecha.addEventListener("click", () => {
+  box.classList.toggle("efecto");
+  flecha.classList.toggle("rotar");
+});
+  </script>
+    
+</body>
